@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    padding: 2rem;  
+    background-image: url('../img/back.png');
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.dropdown-item{
+    padding: 0.25rem 0.5rem;   
+}
+.dropdown-item img{
+    max-width: 50px;
+}
+.dropdown-menu{
+    min-width: 50%;
+}
+.bg-menu{
+    background-color:#002e5b;
+}
+.yellow{
+    color: #fde428;
+}
+.box{
+    height: 35vh;
+    width: 14vw;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    display: flex;
+    position: relative;
+}
+.box div{
+    position: absolute;
+    right: 100px;
+    top: 52px;
+}
+.box img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 46vh;
+    width: 18vw;
+}
+/* 83 + 28 */
+.box h2{
+    font-size: 35px;
+    text-align: right;
+    z-index: 2;
+}
+.box a{
+    margin-top: 13px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: right;
+    color: #fde428;
+}
+.first-main{
+    background-image:  linear-gradient(to right, rgba(171,160,44,0) 0%, rgba(253,229,44,0) 30%, rgba(253,229,44,1) 30%, rgba(253,229,44,1) 70%, rgba(253,229,44,0) 70%, rgba(253,229,44,0) 100%)
+}
+.contact{
+    background-color: #002e5b;
+}
+.contact a{
+    background-color: #fde428;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #002e5b;
+    color: #002e5b;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.contact a:hover{
+    background-color: #002e5b;
+    border: 1px solid #fde428;
+    color: #fde428;
+    text-decoration: none!important;
+}
+.post h3{
+    color: #002e5b;
+}
+.post h4{
+    color: #002e5b;
+}
+.post p{
+    color: #4b4b4b;
+    font-size: 13px;
+}
+.numbers{
+    background-color: #002e5b;
+}
+.counter-value{
+    letter-spacing: 5px;
+}
+footer{
+    background-color: #002e5b;
+}
+footer p{
+    color:white;
+}
+footer span{
+    color: #fde428;
+}
+footer nav ul li a img{
+    height: 25px;
+}
+footer nav ul li{
+    margin-left: 10px;
+}
+.posts{
+    border: 2px solid rgba(187, 187, 187, 0.199);
+}
+.posts h4{
+    font-size: 20px;
+}
+.posts figcaption{
+    padding: 10px;
+}
+.posts figcaption h4{
+    color: #002e5b;
+}
+.posts figcaption li{
+    color: #002e5b;
+}
+.fas{
+    margin-right: 10px;
+}
+.bg{
+    background-color: #f4f4f4;
+}
+h3{
+    color: #002e5b!important;
+}
+.footerLogo{
+    border: 1px solid white;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 30px;
+}
+/*
+  General Rules:
+  font-size(root): %
+  font-size: rem(em for child)
+  padding, margin: rem
+  border,outline: px
+  width, height: %, vh, vw
+  min-width,max-width: px
+  top,bottom,left,right: %
+*/
